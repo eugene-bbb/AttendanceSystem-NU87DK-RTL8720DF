@@ -1,8 +1,8 @@
 #include "BLEDevice.h"
 #include <WiFi.h>
 
-char ssid[] = "NUSTATION_5G";
-char pass[] = "nucode1234!@";
+char ssid[] = "Your wifi ssid";
+char pass[] = "Your wifi pw";
 
 const char* studentUUIDs[] = {
     "12345678-1234-1234-1234-000000000001",
