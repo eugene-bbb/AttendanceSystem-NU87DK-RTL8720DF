@@ -37,13 +37,13 @@ nRF Connect Advertiser  -BLE-> BLE Scanner   -WiFi 5GHz-> Web Dashboard
 ```
 
 1. Each student sets a unique UUID in nRF Connect Advertiser
-   학생마다 nRF Connect Advertiser에서 고유 UUID 설정
+    | 필학생마다 nRF Connect Advertiser에서 고유 UUID 설정
 2. NU87 DK continuously scans for BLE beacons
-   NU87 DK가 주변 BLE 비콘을 지속적으로 스캔
+    | 필NU87 DK가 주변 BLE 비콘을 지속적으로 스캔
 3. When a registered UUID is detected (RSSI > -70dBm), attendance is marked
-   등록된 UUID가 감지되면 (RSSI > -70dBm) 출석 처리
+    | 필등록된 UUID가 감지되면 (RSSI > -70dBm) 출석 처리
 4. Attendance status is served via built-in WiFi web server
-   출석 현황은 보드 내장 WiFi 웹서버로 실시간 제공
+    | 필출석 현황은 보드 내장 WiFi 웹서버로 실시간 제공
 
 ---
 
